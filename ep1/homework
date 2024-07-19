@@ -1,0 +1,12 @@
+const fullName: string = 'Uten Lapanikorn'
+let x: number = 10 // x มีค่าเท่ากับ 10
+let y: number = 20 // y มีค่าเท่ากับ 20
+let p: string = '5' 
+let workHome: boolean = true // การบ้าน จริง
+
+console.log(fullName)
+console.log(x) // แสดงค่า x
+console.log(y) // แสดงค่า y
+console.log(x === p) // x เท่ากันหรือเปล่า
+console.log(x > y) // x มากกว่า y
+console.log(x <= y ) // x น้อยกว่าเท่ากับ y 
