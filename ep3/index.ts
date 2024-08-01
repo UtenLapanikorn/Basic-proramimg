@@ -34,22 +34,22 @@ function sd(sex: string, high: number, kg: number) {
 sd('male', 175, 49)
 
 function BMI(height: number, weight: number) {
-    height = height / 100;
-    if (weight <= 0 || weight >= 639 || height <= 0 || height >= 3) {
-      console.log("กรอกค่าไม่ถูกต้อง");
-      return;
-    }
-    let BMI: number = weight / (height * height);
-    if (BMI > 30) {
-      console.log("อ้วนมาก");
-    } else if (BMI >= 25 && BMI <= 29.9) {
-      console.log("อ้วน");
-    } else if (BMI >= 23 && BMI <= 24.9) {
-      console.log("น้ำหนักเกิน");
-    } else if (BMI >= 18.5 && BMI <= 22.9) {
-      console.log("น้ำหนักปกติ เหมาะสม");
-    } else {
-      console.log("ผอมเกินไป");
-    }
+  height = height / 100;
+  if (weight <= 0 || weight >= 639 || height <= 0 || height >= 3) {
+    console.log("ค่าไม่ถูกต้อง");
+    return;
   }
-  BMI(190, 0);
+  let BMI: number = weight / (height * height);
+  if (BMI > 30) {
+    console.log("อ้วนมาก");
+  } else if (BMI >= 25 && BMI <= 29.9) {
+    console.log("อ้วน");
+  } else if (BMI >= 23 && BMI <= 24.9) {
+    console.log("น้ำหนักเกิน");
+  } else if (BMI >= 18.5 && BMI <= 22.9) {
+    console.log("น้ำหนักปกติ");
+  } else {
+    console.log("ผอมเกินไป");
+  }
+}
+BMI(190, 0);
