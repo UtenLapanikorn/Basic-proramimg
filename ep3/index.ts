@@ -52,5 +52,4 @@ function BMI(height: number, weight: number) {
     console.log("ผอมเกินไป");
   }
 }
-
 BMI(180, 0);
