@@ -70,6 +70,8 @@
 // }
 //     console.log(muelp(2000000));
 
-const str: string = "Uten"
+// const str: string = "Uten"
 
-console.log(str.indexOf('e'));
+// console.log(str.indexOf('e'));
+
+
