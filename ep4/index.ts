@@ -74,4 +74,25 @@
 
 // console.log(str.indexOf('e'));
 
+// // // const str: string = 'นายทดสอบ นามสกุล'
 
+
+// // // console.log(str.includes('นาย'))
+
+// // const str: string =  "Hello My Name if John I'm so Happy"
+
+// // console.log (str.slice(str.indexOf('John'),str.indexOf('John') + "John".length))
+
+// // function getName(fullName: string){
+// //     console.log(fullName.slice(0, fullName.indexOf(' '))
+// // }
+
+// // getName('Uten Lapanilkorn')
+
+// const str: string = "61,325.33:61,325.32:61,325.31:61,325.30"
+
+// console.log(str.split(':'))
+
+const str: string = 'ยายแล่ม เมื่อตอนสาวๆ' // อ้นจี้
+
+console.log(str.replace('ยายแล่ม','อ้นจี้'))
