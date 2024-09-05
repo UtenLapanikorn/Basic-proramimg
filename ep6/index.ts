@@ -33,8 +33,25 @@
 
 // console.log('slice 0-2: ',animalsNameArray.slice(0,2))
 
-const fruits = ['Banana','Orange','Apple','Mango']
+// const fruits = ['Banana','Orange','Apple','Mango']
 
-console.log('เรียง ก-ฮ:',fruits.sort())
+// console.log('เรียง ก-ฮ:',fruits.sort())
 
-console.log('เรียง ฮ-ก',fruits.reverse())
+// console.log('เรียง ฮ-ก',fruits.reverse())
+
+const personalInfo = {
+    fisrtName : "สมชาย",
+    lastName : "แน่นะ",
+    houseNumber : "51",
+    villageNumber : "2",
+    roadName : "พระราม 2",
+    subDistrict : "บางขุนเทียน",
+    district : "แสมดำ",
+    country : "กรุงเทพมหานคร",
+    postalCode : "10150",
+    homeNumber : "02-644184253",
+    telePhone : "065-486-9751",
+    eMail : "Somchai51@gmail.com",
+}
+
+
