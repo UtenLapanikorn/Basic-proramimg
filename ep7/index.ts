@@ -1022,3 +1022,9 @@ console.log(deathMoreFiveDatabase)
 // })
 
 // console.log(deathMoreFiveDatabaseOnlyProvince)
+
+
+const databaseThai = database.results.filter(function (element, index) {
+    return element.language === 'thai' 
+
+console.log(databaseThai) // เอาข่าวภาษาไทย
